@@ -1,0 +1,45 @@
+name: yowza_b
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  smooth_page_indicator: ^1.0.0+2
+  introduction_screen: ^3.0.2
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+  fonts:
+    - family: Gotham
+      fonts:
+        - asset: assets/fonts/Gotham/Gotham-Black.ttf
+        - asset: assets/fonts/Gotham/Gotham-Bold.ttf
+        - asset: assets/fonts/Gotham/Gotham-Book.ttf
+        - asset: assets/fonts/Gotham/Gotham-Light.ttf
+        - asset: assets/fonts/Gotham/Gotham-Medium.ttf
+        - asset: assets/fonts/Gotham/Gotham-Ultra.ttf
+    - family: SF-Pro
+      fonts:
+        - asset: assets/fonts/SF-Pro/SF-Pro-Display-Black.otf
+        - asset: assets/fonts/SF-Pro/SF-Pro-Display-Light.otf
+        - asset: assets/fonts/SF-Pro/SF-Pro-Display-Regular.otf
+        - asset: assets/fonts/SF-Pro/SF-Pro-Display-Semibold.otf
